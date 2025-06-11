@@ -1,5 +1,3 @@
-
-window.addEventListener("DOMContentLoaded", () => {
 // main.js
 
 let provider;// Proveedor de Ethereum
@@ -682,6 +680,9 @@ async function loadRoundHistory() {
   }
 }
 
+
+
+
 window.connectWallet = connectWallet;
 window.loadContract = loadContract;
 window.addCandidate = addCandidate;
@@ -691,8 +692,3 @@ window.startNewRound = startNewRound;
 window.loadCurrentResults = loadCurrentResults;
 window.checkTie = checkTie;
 window.loadRoundHistory = loadRoundHistory;
-
-});
-
-
-
