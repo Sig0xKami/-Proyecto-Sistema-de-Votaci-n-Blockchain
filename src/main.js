@@ -679,3 +679,13 @@ async function loadRoundHistory() {
     document.getElementById("historyContainer").innerHTML = "<p>Error al cargar historial.</p>";
   }
 }
+
+window.connectWallet = connectWallet;
+window.loadContract = loadContract;
+window.addCandidate = addCandidate;
+window.voteForCandidate = voteForCandidate;
+window.finalizeVoting = finalizeVoting;
+window.startNewRound = startNewRound;
+window.loadCurrentResults = loadCurrentResults;
+window.checkTie = checkTie;
+window.loadRoundHistory = loadRoundHistory;
