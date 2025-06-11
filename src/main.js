@@ -1,3 +1,5 @@
+
+window.addEventListener("DOMContentLoaded", () => {
 // main.js
 
 let provider;// Proveedor de Ethereum
@@ -689,3 +691,8 @@ window.startNewRound = startNewRound;
 window.loadCurrentResults = loadCurrentResults;
 window.checkTie = checkTie;
 window.loadRoundHistory = loadRoundHistory;
+
+});
+
+
+
